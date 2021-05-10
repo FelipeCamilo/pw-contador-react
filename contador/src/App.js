@@ -1,9 +1,9 @@
-import './App.css';
+import './App.css'
 
 import React from 'react'
 
-import Contador from './components/contador'
-import Card from './components/Card';
+import Contador from './components/Contador'
+import Card from './components/layout/Card';
 
 export default () => (
 

@@ -9,7 +9,7 @@ import PassoForm from './PassoForm'
 class Contador extends Component{
 
     state = {
-        numero: this.props.numeroinicial || 0,
+        numero: this.props.numeroInicial || 0,
         passo: this.props.passo || 5,
     }
 
@@ -35,11 +35,11 @@ class Contador extends Component{
         return(
             <div className="Contador">
 
-                <diplay numero={this.state.numero}/>
+                <Display numero={this.state.numero}/>
 
                 <PassoForm passo={this.state.passo} setPasso={this.setPasso}/>
 
-                <botoes setInc={this.inc} setDec={this.dec} />
+                <Botoes setInc={this.inc} setDec={this.dec} />
             </div>
         )
     }

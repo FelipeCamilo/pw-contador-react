@@ -8,7 +8,7 @@ export default props => {
                 id="passoInput"
                 type="number"
                 value={props.passo}
-                onchange={event => props.setPasso(+event.target.value)}
+                onChange={event => props.setPasso(+event.target.value)}
             />
         </h2>
     )
